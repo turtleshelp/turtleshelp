@@ -11,8 +11,8 @@ I'm looking for a **Werkstudent position, internship or junior role** in mobile 
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**mobile-robot-with-arm**](https://github.com/turtleshelp/mobile-robot-with-arm) | Mobile manipulator: TurtleBot3 Waffle Pi base + OpenMANIPULATOR-X **4-DOF** arm and gripper, simulated in Gazebo. Diff-drive, arm/gripper controllers and **MoveIt 2** plan-and-execute working. *(Master's case study)* | ROS 2 Humble, Gazebo, ros2_control, MoveIt 2, URDF/Xacro, Python |
-| [**glove-defect-inspection**](https://github.com/turtleshelp/glove-defect-inspection) | Vision-based glove inspection & sorting: mm-calibrated measurement, 9 defect types, MLP glove-type classifier, fuzzy PASS / REWORK / REJECT decision, PySide6 GUI, Arduino servo sorter. 2026 rework of a 2020 university project. | Python, OpenCV, scikit-learn, scikit-fuzzy, PySide6, Arduino |
+| [**mobile-robot-with-arm**](https://github.com/turtleshelp/mobile-robot-with-arm) | Autonomous mobile pick-and-place in simulation: TurtleBot3 Waffle Pi + OpenMANIPULATOR-X **4-DOF** arm. **Nav2** navigation with LiDAR docking (about 1 cm parking), RGB-D cube detection (1–3 mm), analytic-IK grasping, run-time safety checks, CI and an IEEE-style evaluation report. *(Master's case study)* | ROS 2 Humble, Gazebo, Nav2, SLAM Toolbox, MoveIt 2, ros2_control, OpenCV, Python, C++ |
+| [**glove-defect-inspection**](https://github.com/turtleshelp/glove-defect-inspection) | Vision-based glove inspection & sorting: mm-calibrated measurement, 9 defect types, MLP glove-type classifier, fuzzy PASS / REWORK / REJECT decision, PySide6 GUI, Arduino servo sorter. Evaluated on a synthetic test set; real-glove testing is next. 2026 rework of a 2020 university project. | Python, OpenCV, scikit-learn, scikit-fuzzy, PySide6, Arduino |
 | [**automated-plant-monitoring**](https://github.com/turtleshelp/automated-plant-monitoring) | Arduino plant monitor reading light, temperature, humidity, soil moisture and water level, shown on a 20×4 I2C LCD; simulated in Proteus and tested on hardware. *(2020 group project)* | Arduino (C++), Proteus |
 
 **Coming soon:** autonomous weeding robot (Bachelor FYP — OpenCV + k-NN on Raspberry Pi 4 / Arduino Mega) · driver drowsiness detection (dlib eye-aspect-ratio + yawn detection) · a collection of small robotics projects.
@@ -21,13 +21,12 @@ I'm looking for a **Werkstudent position, internship or junior role** in mobile 
 
 ## 🛠 Tools I work with
 
-**Robotics:** ROS 2 · Gazebo · RViz · MoveIt 2 · ros2_control · URDF / Xacro
+**Robotics:** ROS 2 · Nav2 · SLAM Toolbox · AMCL · Gazebo · RViz · MoveIt 2 · ros2_control · URDF / Xacro
 **Vision & ML:** OpenCV · scikit-learn · fuzzy logic · dlib
 **Programming:** Python · C++ · Arduino
 **Hardware:** Raspberry Pi · Arduino · servos & sensors
 **Environment:** Linux / Ubuntu · Git & GitHub
 
-**Currently learning:** Nav2 · SLAM · mobile manipulation
 
 ---
 
