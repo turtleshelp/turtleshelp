@@ -9,11 +9,11 @@ I'm looking for a **Werkstudent position, internship or junior role** in mobile 
 
 ## 🤖 Featured projects
 
-| Project | What it is | Stack | Status |
-|---|---|---|---|
-| [**mobile-robot-with-arm**](https://github.com/turtleshelp/mobile-robot-with-arm) | Mobile manipulator: TurtleBot3 Waffle Pi base + OpenMANIPULATOR-X **4-DOF** arm and gripper, simulated in Gazebo. Diff-drive, arm/gripper controllers and **MoveIt 2** plan-and-execute working. *(Master's case study)* | ROS 2 Humble, Gazebo, ros2_control, MoveIt 2, URDF/Xacro, Python | 🟡 In progress — Nav2, SLAM and pick-and-place next |
-| [**glove-defect-inspection**](https://github.com/turtleshelp/glove-defect-inspection) | Vision-based glove inspection & sorting: mm-calibrated measurement, 9 defect types, MLP glove-type classifier, fuzzy PASS / REWORK / REJECT decision, PySide6 GUI, Arduino servo sorter. 2026 rework of a 2020 university project. | Python, OpenCV, scikit-learn, scikit-fuzzy, PySide6, Arduino | ✅ Done — validated on a synthetic test set |
-| [**automated-plant-monitoring**](https://github.com/turtleshelp/automated-plant-monitoring) | Arduino plant monitor reading light, temperature, humidity, soil moisture and water level, shown on a 20×4 I2C LCD; simulated in Proteus and tested on hardware. *(2020 group project)* | Arduino (C++), Proteus | ✅ Done |
+| Project | What it is | Stack |
+|---|---|---|
+| [**mobile-robot-with-arm**](https://github.com/turtleshelp/mobile-robot-with-arm) | Mobile manipulator: TurtleBot3 Waffle Pi base + OpenMANIPULATOR-X **4-DOF** arm and gripper, simulated in Gazebo. Diff-drive, arm/gripper controllers and **MoveIt 2** plan-and-execute working. *(Master's case study)* | ROS 2 Humble, Gazebo, ros2_control, MoveIt 2, URDF/Xacro, Python |
+| [**glove-defect-inspection**](https://github.com/turtleshelp/glove-defect-inspection) | Vision-based glove inspection & sorting: mm-calibrated measurement, 9 defect types, MLP glove-type classifier, fuzzy PASS / REWORK / REJECT decision, PySide6 GUI, Arduino servo sorter. 2026 rework of a 2020 university project. | Python, OpenCV, scikit-learn, scikit-fuzzy, PySide6, Arduino |
+| [**automated-plant-monitoring**](https://github.com/turtleshelp/automated-plant-monitoring) | Arduino plant monitor reading light, temperature, humidity, soil moisture and water level, shown on a 20×4 I2C LCD; simulated in Proteus and tested on hardware. *(2020 group project)* | Arduino (C++), Proteus |
 
 **Coming soon:** autonomous weeding robot (Bachelor FYP — OpenCV + k-NN on Raspberry Pi 4 / Arduino Mega) · driver drowsiness detection (dlib eye-aspect-ratio + yawn detection) · a collection of small robotics projects.
 
